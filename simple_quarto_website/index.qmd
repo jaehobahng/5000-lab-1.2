@@ -1,0 +1,82 @@
+---
+title: "My_Website"
+format:
+    html:
+        toc: true
+---
+
+
+
+
+# Introduction
+<h1>This page is about Professor Hickman's writing</h1>
+![](/images/2023-09-09-17-30-27.png)
+
+## First place
+<h2>Nickel nanoparticles set a new record of strength[@sharma2018nickel]</h2>
+
+Abstract\
+Material objects with micrometer or nanometer dimensions can exhibit much higher strength than macroscopic objects, but this strength rarely approaches the maximum theoretical strength of the material. Here, we demonstrate that faceted single-crystalline nickel (Ni) nanoparticles exhibit an ultrahigh compressive strength (up to 34 GPa) unprecedented for metallic materials. This strength matches the available estimates of Ni theoretical strength. Three factors are responsible for this record-high strength: the large Ni shear modulus, the smooth edges and corners of the nanoparticles, and the thin oxide layer on the particle surface. This finding is supported by molecular dynamics simulations that closely mimic the experimental conditions, which show that the mechanical failure of the strongest particles is triggered by homogeneous nucleation of dislocation loops inside the particle. The nucleation of a stable loop is preceded by multiple nucleation attempts accompanied by unusually large local atomic displacements caused by thermal fluctuations.
+
+## Second Place
+<h2>Temperature fluctuations in canonical systems: Insights from molecular dynamics simulations[@hickman2016temperature]</h2>
+
+ABSTRACT \
+Molecular dynamics simulations of a quasiharmonic solid are conducted to elucidate the meaning of temperature fluctuations in canonical systems and validate a well-known but frequently contested equation predicting the mean square of such fluctuations. The simulations implement two virtual and one physical (natural) thermostat and examine the kinetic, potential, and total energy correlation functions in the time and frequency domains. The results clearly demonstrate the existence of quasiequilibrium states in which the system can be characterized by a well-defined temperature that follows the mentioned fluctuation equation. The emergence of such states is due to the wide separation of time scales between thermal relaxation by phonon scattering and slow energy exchanges with the thermostat. The quasiequilibrium states exist between these two time scales when the system behaves as virtually isolated and equilibrium.
+
+
+
+| TITLE    | Cited By |
+| -------- | ------- |
+| Nickel nanoparticles set a new record of strength  | 71    |
+| Temperature fluctuations in canonical systems: Insights from molecular dynamics simulations | 32     |
+| Extra variable in grain boundary description    | 30    |
+
+
+<h3>***Only a portion of the professor's writing is displayed in this page***</h3>
+
+## Classes Taught(2023 FALL)
+::: {layout-ncol=2}
+### DSAN-5000
+
+- MODULE 1
+- MODULE 2
+- MODULE 3
+
+### DSAN-5100
+
+- MODULE 1
+- MODULE 2
+- MODULE 3
+:::
+
+## LATEX MATHEMATICAL EQUATION EXAMPLE
+$\sqrt{5}$ + $\sqrt{a + 2b + c^{2}}$
+```{mermaid}
+flowchart LR
+  A[2011: Bachelor of Science] --> B[2014: Masters in Applied and Engineering Physics]
+  B --> C[2017: PhD in Physics, Department of Physics]
+  C --> D[NIST]
+  C --> E[Georgetown University]
+```
+
+
+
+>Black-Scholes
+Black-Scholes (@eq-black-scholes) is a mathematical model that I chose to use for the example for this website[^1]
+$$
+\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
+  + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+  \mathrm r \mathrm C 
+$$ {#eq-black-scholes}
+
+[^1]: The Black-Scholes model is a mathematical model for the dynamics of a financial 
+market containing derivative investment instruments, using various underlying assumptions
+
+## Quarto Tutorial
+{{< video https://youtu.be/YoKjBcuUP0s?si=7W_4GJRLoRtgVVT6 width=“800” height=“500” >}}
+
+
+
+![](images/2023-09-09-18-08-53.png)

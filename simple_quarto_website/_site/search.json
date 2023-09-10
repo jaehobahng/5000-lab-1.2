@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "slides/slides.html#james-hickman",
+    "href": "slides/slides.html#james-hickman",
+    "title": "James Hickman",
+    "section": "James Hickman",
+    "text": "James Hickman\n\nResearch"
+  },
+  {
+    "objectID": "slides/slides.html#most-cited-piece-of-writing",
+    "href": "slides/slides.html#most-cited-piece-of-writing",
+    "title": "James Hickman",
+    "section": "Most cited piece of writing",
+    "text": "Most cited piece of writing\nNickel nanoparticles set a new record of strength1"
+  },
+  {
+    "objectID": "slides/slides.html#simple-plot",
+    "href": "slides/slides.html#simple-plot",
+    "title": "James Hickman",
+    "section": "Simple plot",
+    "text": "Simple plot"
+  },
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "James Hickman",
+    "section": "Citation",
+    "text": "Citation\n\n\n\n\n\n\n1. Sharma, A., Hickman, J., Gazit, N., Rabkin, E. & Mishin, Y. Nickel nanoparticles set a new record of strength. Nature communications 9, 4102 (2018)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "\nIPYNB IN QUARTO\n",
+    "section": "",
+    "text": "IPYNB IN QUARTO\n\n\nSimple Plot\n\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Data for plotting\nt = np.arange(0.0, 2.0, 0.01)\ns = 1 + np.sin(2 * np.pi * t)\n\nfig, ax = plt.subplots()\nax.plot(t, s)\n\nax.set(xlabel='time (s)', ylabel='voltage (mV)',\n       title='About as simple as it gets, folks')\nax.grid()\n\nfig.savefig(\"test.png\")\nplt.show()\n\n\n\n\n\nRandomly Generated Text\n\n\nipsum lorem\n\n\nipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. \nEst illum quas magnam corrupti nesciunt nobis libero eos beatae suscipit, \neum architecto debitis non obcaecati ea voluptate nostrum? \nIure, dicta aliquid?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My_Website",
+    "section": "",
+    "text": "Abstract\nMaterial objects with micrometer or nanometer dimensions can exhibit much higher strength than macroscopic objects, but this strength rarely approaches the maximum theoretical strength of the material. Here, we demonstrate that faceted single-crystalline nickel (Ni) nanoparticles exhibit an ultrahigh compressive strength (up to 34 GPa) unprecedented for metallic materials. This strength matches the available estimates of Ni theoretical strength. Three factors are responsible for this record-high strength: the large Ni shear modulus, the smooth edges and corners of the nanoparticles, and the thin oxide layer on the particle surface. This finding is supported by molecular dynamics simulations that closely mimic the experimental conditions, which show that the mechanical failure of the strongest particles is triggered by homogeneous nucleation of dislocation loops inside the particle. The nucleation of a stable loop is preceded by multiple nucleation attempts accompanied by unusually large local atomic displacements caused by thermal fluctuations.\n\n\n\n\nABSTRACT\nMolecular dynamics simulations of a quasiharmonic solid are conducted to elucidate the meaning of temperature fluctuations in canonical systems and validate a well-known but frequently contested equation predicting the mean square of such fluctuations. The simulations implement two virtual and one physical (natural) thermostat and examine the kinetic, potential, and total energy correlation functions in the time and frequency domains. The results clearly demonstrate the existence of quasiequilibrium states in which the system can be characterized by a well-defined temperature that follows the mentioned fluctuation equation. The emergence of such states is due to the wide separation of time scales between thermal relaxation by phonon scattering and slow energy exchanges with the thermostat. The quasiequilibrium states exist between these two time scales when the system behaves as virtually isolated and equilibrium.\n\n\n\n\n\n\n\nTITLE\nCited By\n\n\n\n\nNickel nanoparticles set a new record of strength\n71\n\n\nTemperature fluctuations in canonical systems: Insights from molecular dynamics simulations\n32\n\n\nExtra variable in grain boundary description\n30\n\n\n\n\n\n\n\n\n\n\n\n\nMODULE 1\nMODULE 2\nMODULE 3\n\n\n\n\n\nMODULE 1\nMODULE 2\nMODULE 3\n\n\n\n\n\n\n\n\\(\\sqrt{5}\\) + \\(\\sqrt{a + 2b + c^{2}}\\)\n\n\n\n\nflowchart LR\n  A[2011: Bachelor of Science] --&gt; B[2014: Masters in Applied and Engineering Physics]\n  B --&gt; C[2017: PhD in Physics, Department of Physics]\n  C --&gt; D[NIST]\n  C --&gt; E[Georgetown University]\n\n\n\n\n\n\nBlack-Scholes Black-Scholes (Equation 1) is a mathematical model that I chose to use for the example for this website1 \\[\n\\frac{\\partial \\mathrm C}{ \\partial \\mathrm t } + \\frac{1}{2}\\sigma^{2} \\mathrm S^{2}\n\\frac{\\partial^{2} \\mathrm C}{\\partial \\mathrm C^2}\n+ \\mathrm r \\mathrm S \\frac{\\partial \\mathrm C}{\\partial \\mathrm S}\\ =\n\\mathrm r \\mathrm C\n\\tag{1}\\]"
+  },
+  {
+    "objectID": "index.html#first-place",
+    "href": "index.html#first-place",
+    "title": "My_Website",
+    "section": "",
+    "text": "Abstract\nMaterial objects with micrometer or nanometer dimensions can exhibit much higher strength than macroscopic objects, but this strength rarely approaches the maximum theoretical strength of the material. Here, we demonstrate that faceted single-crystalline nickel (Ni) nanoparticles exhibit an ultrahigh compressive strength (up to 34 GPa) unprecedented for metallic materials. This strength matches the available estimates of Ni theoretical strength. Three factors are responsible for this record-high strength: the large Ni shear modulus, the smooth edges and corners of the nanoparticles, and the thin oxide layer on the particle surface. This finding is supported by molecular dynamics simulations that closely mimic the experimental conditions, which show that the mechanical failure of the strongest particles is triggered by homogeneous nucleation of dislocation loops inside the particle. The nucleation of a stable loop is preceded by multiple nucleation attempts accompanied by unusually large local atomic displacements caused by thermal fluctuations."
+  },
+  {
+    "objectID": "index.html#second-place",
+    "href": "index.html#second-place",
+    "title": "My_Website",
+    "section": "",
+    "text": "ABSTRACT\nMolecular dynamics simulations of a quasiharmonic solid are conducted to elucidate the meaning of temperature fluctuations in canonical systems and validate a well-known but frequently contested equation predicting the mean square of such fluctuations. The simulations implement two virtual and one physical (natural) thermostat and examine the kinetic, potential, and total energy correlation functions in the time and frequency domains. The results clearly demonstrate the existence of quasiequilibrium states in which the system can be characterized by a well-defined temperature that follows the mentioned fluctuation equation. The emergence of such states is due to the wide separation of time scales between thermal relaxation by phonon scattering and slow energy exchanges with the thermostat. The quasiequilibrium states exist between these two time scales when the system behaves as virtually isolated and equilibrium.\n\n\n\n\n\n\n\nTITLE\nCited By\n\n\n\n\nNickel nanoparticles set a new record of strength\n71\n\n\nTemperature fluctuations in canonical systems: Insights from molecular dynamics simulations\n32\n\n\nExtra variable in grain boundary description\n30"
+  },
+  {
+    "objectID": "index.html#classes-taught2023-fall",
+    "href": "index.html#classes-taught2023-fall",
+    "title": "My_Website",
+    "section": "",
+    "text": "MODULE 1\nMODULE 2\nMODULE 3\n\n\n\n\n\nMODULE 1\nMODULE 2\nMODULE 3"
+  },
+  {
+    "objectID": "index.html#latex-mathematical-equation-example",
+    "href": "index.html#latex-mathematical-equation-example",
+    "title": "My_Website",
+    "section": "",
+    "text": "\\(\\sqrt{5}\\) + \\(\\sqrt{a + 2b + c^{2}}\\)\n\n\n\n\nflowchart LR\n  A[2011: Bachelor of Science] --&gt; B[2014: Masters in Applied and Engineering Physics]\n  B --&gt; C[2017: PhD in Physics, Department of Physics]\n  C --&gt; D[NIST]\n  C --&gt; E[Georgetown University]\n\n\n\n\n\n\nBlack-Scholes Black-Scholes (Equation 1) is a mathematical model that I chose to use for the example for this website1 \\[\n\\frac{\\partial \\mathrm C}{ \\partial \\mathrm t } + \\frac{1}{2}\\sigma^{2} \\mathrm S^{2}\n\\frac{\\partial^{2} \\mathrm C}{\\partial \\mathrm C^2}\n+ \\mathrm r \\mathrm S \\frac{\\partial \\mathrm C}{\\partial \\mathrm S}\\ =\n\\mathrm r \\mathrm C\n\\tag{1}\\]"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "My_Website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe Black-Scholes model is a mathematical model for the dynamics of a financial market containing derivative investment instruments, using various underlying assumptions↩︎"
+  }
+]
